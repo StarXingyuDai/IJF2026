@@ -23,7 +23,7 @@ dates=seq.Date(from=as.Date("2000-01-01"),to=as.Date("2026-03-01"),by="month")
 
 
 ####Figure 2####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure2")
+setwd("~/figures/figure2")
 
 ITS_returns<-read.csv('int_real.csv',header = T,stringsAsFactors = F)
 
@@ -99,7 +99,7 @@ dev.off()#1000*1000
 
 
 ####Figure 3####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure3")
+setwd("~/figures/figure3")
 
 BEMD_asset0_dt<-read.csv('decom_asset0_BEMD.csv',header = T,stringsAsFactors = F)
 BVMD_asset0_dt<-read.csv('decom_asset0_BVMD.csv',header = T,stringsAsFactors = F)
@@ -218,7 +218,7 @@ dev.off()#1500*2000
 
 
 ####Figure B1####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB1")
+setwd("~/figures/figureB1")
 
 BEMD_asset1_dt<-read.csv('decom_asset1_BEMD.csv',header = T,stringsAsFactors = F)
 BVMD_asset1_dt<-read.csv('decom_asset1_BVMD.csv',header = T,stringsAsFactors = F)
@@ -340,7 +340,7 @@ dev.off()#1500*2000
 
 
 ####Figure B2####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB2")
+setwd("~/figures/figureB2")
 
 BEMD_asset2_dt<-read.csv('decom_asset2_BEMD.csv',header = T,stringsAsFactors = F)
 BVMD_asset2_dt<-read.csv('decom_asset2_BVMD.csv',header = T,stringsAsFactors = F)
@@ -464,7 +464,7 @@ dev.off()#1500*2000
 
 
 ####Figure B3####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB3")
+setwd("~/figures/figureB3")
 
 BEMD_asset3_dt<-read.csv('decom_asset3_BEMD.csv',header = T,stringsAsFactors = F)
 BVMD_asset3_dt<-read.csv('decom_asset3_BVMD.csv',header = T,stringsAsFactors = F)
@@ -589,7 +589,7 @@ dev.off()#1500*2000
 
 
 ####Figure 4####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure4")
+setwd("~/figures/figure4")
 
 raw_asset0_period_dt<-read.csv('raw_asset0_period.csv',header = T,stringsAsFactors = F)
 BEMD_asset0_period_dt<-read.csv('BEMD_asset0_period.csv',header = T,stringsAsFactors = F)
@@ -662,7 +662,7 @@ dev.off()#1200*1000
 
 
 ####Figure B4####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB4")
+setwd("~/figures/figureB4")
 
 raw_asset0_period_dt<-read.csv('raw_asset0_period.csv',header = T,stringsAsFactors = F)
 BEMD_asset0_period_dt<-read.csv('BEMD_asset0_period.csv',header = T,stringsAsFactors = F)
@@ -735,7 +735,7 @@ dev.off()#1200*1000
 
 
 ####Figure B5####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB5")
+setwd("~/figures/figureB5")
 
 raw_asset0_period_dt<-read.csv('raw_asset0_period.csv',header = T,stringsAsFactors = F)
 BEMD_asset0_period_dt<-read.csv('BEMD_asset0_period.csv',header = T,stringsAsFactors = F)
@@ -809,7 +809,7 @@ dev.off()#1200*1000
 
 
 ####Figure B6####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figureB6")
+setwd("~/figures/figureB6")
 
 raw_asset0_period_dt<-read.csv('raw_asset0_period.csv',header = T,stringsAsFactors = F)
 BEMD_asset0_period_dt<-read.csv('BEMD_asset0_period.csv',header = T,stringsAsFactors = F)
@@ -882,7 +882,7 @@ dev.off()#1200*1000
 
 
 ####Figure 5####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure5")
+setwd("~/figures/figure5")
 All_asset0_dt<-read.csv('All_asset0_w84.csv',header = T,stringsAsFactors = F)
 All_asset1_dt<-read.csv('All_asset1_w84.csv',header = T,stringsAsFactors = F)
 All_asset2_dt<-read.csv('All_asset2_w84.csv',header = T,stringsAsFactors = F)
@@ -987,7 +987,7 @@ dev.off()#1500*1600
 
 
 ####Figure 6####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure6")
+setwd("~/figures/figure6")
 
 cols_11_ssci <- c("#1B4F72","#A93226","#117A65","#7D3C98",  
   "#B9770E","#566573","#2E86C1","#CB4335","#239B56","#884EA0","#CA6F1E")
@@ -1111,7 +1111,7 @@ ggsave(
 
 
 ####Figure 7####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure7")
+setwd("~/figures/figure7")
 cvr0_dt<-read.csv('cvr_all_asset0.csv',header = T,stringsAsFactors = F)*100
 cvr1_dt<-read.csv('cvr_all_asset1.csv',header = T,stringsAsFactors = F)*100
 cvr2_dt<-read.csv('cvr_all_asset2.csv',header = T,stringsAsFactors = F)*100
@@ -1201,7 +1201,7 @@ dev.off()#1500*1600
 
 
 ####Figure 8####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure8")
+setwd("~/figures/figure8")
 multih_cr_asset0<-read.csv('multih_p4_w84_l3_crloss_asset0.csv',header = T,stringsAsFactors = F)
 multih_cr_asset1<-read.csv('multih_p4_w84_l3_crloss_asset1.csv',header = T,stringsAsFactors = F)
 multih_cr_asset2<-read.csv('multih_p4_w84_l3_crloss_asset2.csv',header = T,stringsAsFactors = F)
@@ -1352,7 +1352,7 @@ dev.off()#1500*1200
 
 
 ####Figure 9####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure9")
+setwd("~/figures/figure9")
 multip_cr_asset0<-read.csv('multip_f1_w84_l3_crloss_asset0.csv',header = T,stringsAsFactors = F)
 multip_lr_asset0<-read.csv('multip_f1_w84_l3_lrloss_asset0.csv',header = T,stringsAsFactors = F)
 multip_cr_asset1<-read.csv('multip_f1_w84_l3_crloss_asset1.csv',header = T,stringsAsFactors = F)
@@ -1459,7 +1459,7 @@ dev.off()#1400*1200
 
 
 ####Figure 10####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure10")
+setwd("~/figures/figure10")
 vol_loss0_dt<-read.csv('vol_loss_0.csv',header = T,stringsAsFactors = F)
 vol_loss1_dt<-read.csv('vol_loss_1.csv',header = T,stringsAsFactors = F)
 vol_loss2_dt<-read.csv('vol_loss_2.csv',header = T,stringsAsFactors = F)
@@ -1562,7 +1562,7 @@ dev.off()#1500*1700
 
 
 ####Figure 11 ####
-setwd("E:/当前论文工作/IJF/IJF提交5/data & code/figures/figure11")
+setwd("~/figures/figure11")
 pf_MV_dt<-read.csv('pf_MV.csv',header = T,stringsAsFactors = F)
 pf_MV_right_dt<-read.csv('pf_MV_right.csv',header = T,stringsAsFactors = F)
 pf_MV_left_dt<-read.csv('pf_MV_left.csv',header = T,stringsAsFactors = F)
