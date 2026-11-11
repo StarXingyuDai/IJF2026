@@ -1,6 +1,8 @@
 # README
 
-## 1. Software and Package Requirements
+Xingyu Dai (Star19950818@foxmail.com)
+
+## Step 1. Software and Package Requirements
 
 The software versions used in this study are as follows:
 
@@ -47,7 +49,7 @@ Third-party Python packages imported by each script:
 
 Only packages explicitly referenced by the project scripts are listed. Standard-library modules, local project modules, and transitive dependencies are omitted.
 
-## 2. Python Environment Setup
+##  Step 2. Python Environment Setup
 
 Open the following four Python files in the project:
 
@@ -58,15 +60,15 @@ Open the following four Python files in the project:
 
 Please note that the Python scripts in this project are designed to be executed interactively in PyCharm by selecting and running specific sections of code. Do not execute an entire Python script as a standalone program. In `Main_01.py`, modify line 9: `os.chdir(r"...\Code and Data")`. Replace the existing path with the corresponding directory on your local computer.
 
-## 3. Main Computation
+##  Step 3. Main Computation
 
 In `Main_01.py`, select all lines of code and execute the selected code in the current PyCharm environment.
 
-## 4. Economic Evaluation
+##  Step 4. Economic Evaluation
 
 Without closing or restarting the current PyCharm execution environment, open `Economics_Application_04.py`. Select all lines of code in this file and execute the selected code within the same environment.
 
-## 5. Figure Reproduction
+##  Step 5. Figure Reproduction
 
 Please execute only the selected lines of code or code blocks in RStudio, rather than running the entire script at once, as the script contains commands that close the graphics device.
 
@@ -74,7 +76,7 @@ Open `Figures.R` in RStudio and load the required R packages specified in lines 
 
 Please note that each occurrence of `dev.off()` in the R script closes the current graphics device. If you wish to keep the graphics window open, do not execute this line. Comments following `dev.off()`, such as `#1500*2000`, indicate the resolution settings (in pixels) used for exporting the figures.
 
-## 6. Table Reproduction
+## Step 6. Table Reproduction
 
 All numerical results reported in the tables of the paper are generated through the computations described in Steps 3 and 4. The following instructions explain how to locate and organize the corresponding results.
 
